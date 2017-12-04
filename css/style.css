@@ -1149,7 +1149,7 @@ body > input[type="radio"] {
 	margin-bottom: 40px;
 	padding-left: 20px;
 	padding-right: 20px;
-	padding-bottom: 22px;
+	padding-bottom: 23px;
 
 	color: #323232;
 
@@ -1186,8 +1186,8 @@ body > input[type="radio"] {
 .feature-item {
 	position: relative;
 	max-width: 48.82%;
-	margin-top: 10px;
-	padding-top: 15px;
+	margin-top: 8px;
+	padding-top: 13px;
 }
 
 .feature-item p {
@@ -1282,7 +1282,7 @@ body > input[type="radio"] {
 	background-color: #ffffff;
 	background-image: url("../img/bg-strawberry.jpg");
 	background-repeat: no-repeat;
-	background-position: -50px -230px;
+	background-position: -50px -225px;
 	border-radius: 15px;
 
 	-webkit-box-sizing: border-box;
@@ -1348,7 +1348,7 @@ body > input[type="radio"] {
 	        justify-content: space-between;
 	width: 97.857142857142857142857142857143%;
 	height: 210px;
-	padding: 32px 19px;
+	padding: 31px 19px 33px 20px;
 
 	background-color: #f8f7f4;
 	border-radius: 15px;
@@ -1378,9 +1378,11 @@ body > input[type="radio"] {
 
 .subscription-email input[type="email"] {
 	width: 72.714285714285714285714285714286%;
-	height: 44px;
+	height: 42px;
 	padding-left: 14px;
 
+
+  box-sizing: border-box;
 	background-color: #ffffff;
     -webkit-box-shadow: 0 0 0 1px #b3b3b3;
             box-shadow: 0 0 0 1px #b3b3b3;
@@ -1455,8 +1457,7 @@ body > input[type="radio"] {
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
 	width: 302px;
-	/*height: 305px;*/
-	padding: 28px 26px;
+	padding: 29px 26px 31px 26px;
 	right: 2.25%;
 	top: 14.5%;
 
@@ -1465,6 +1466,16 @@ body > input[type="radio"] {
 
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
+}
+
+.feedback-title-adress {
+  margin: 0;
+  padding-right: 100px;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #323232;
 }
 
 .feedback-adress {
@@ -1479,7 +1490,6 @@ body > input[type="radio"] {
 
 .feedback-phone {
 	margin: 0;
-	margin-bottom: 0;
 
 	font-size: 14px;
 	font-weight: 400;
@@ -1499,12 +1509,16 @@ body > input[type="radio"] {
 
 .feedback b {
 	display: block;
-	padding-top: 3px;
 
 	font-size: 18px;
 	font-weight: 700;
 	line-height: 24px;
 	color: #323232;
+}
+
+.feedback-phone b {
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
 
 .button-feedback a {
@@ -1616,6 +1630,14 @@ body > input[type="radio"] {
 	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+.footer-info li:nth-child(2n+1) {
+  margin-left: 5px;
+}
+
+.footer-info li:nth-child(2n) {
+  margin-left: -10px;
+}
+
 .footer-info a:hover,
 .footer-info a:focus,
 .footer-info a:active  {
@@ -1624,7 +1646,7 @@ body > input[type="radio"] {
 
 /*Копирайт*/
 .footer-copyright {
-	margin-top: 20px;
+	margin-top: 18px;
 }
 
 .footer-copyright ul {
