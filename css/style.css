@@ -1022,7 +1022,7 @@ body > input[type="radio"] {
 	position: relative;
 	min-height: 280px;
 	max-height: 405px;
-	margin-bottom: 40px;
+	margin-bottom: 34.5px;
 
 	padding-top: 5px;
 
@@ -1146,10 +1146,11 @@ body > input[type="radio"] {
 		-webkit-box-direction: normal;
 		-ms-flex-direction: column;
 	flex-direction: column;
-	margin-bottom: 40px;
+  margin-top: 4px;
+	margin-bottom: 39px;
 	padding-left: 20px;
 	padding-right: 20px;
-	padding-bottom: 23px;
+	padding-bottom: 25px;
 
 	color: #323232;
 
@@ -2195,7 +2196,7 @@ body > input[type="radio"] {
 
 .filter-option {
 	position: relative;
-	padding-left: 31px;
+	padding-left: 32px;
 
 	cursor: pointer;
 }
@@ -2252,6 +2253,8 @@ body > input[type="radio"] {
 /*Фильтр по наполнителям*/
 .filter-filler {
 	width: 703px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .filter-filler-wrapper {
@@ -2266,14 +2269,14 @@ body > input[type="radio"] {
 
 .filter-checkbox {
 	position: relative;
-	padding-left: 30px;
+	padding-left: 33px;
 
 	cursor: pointer;
 }
 
 .filter-input-checkbox + .checkbox-indicator {
 	position: absolute;
-	top: -1px;
+	top: -2px;
 	left: 0;
 	z-index: 5;
 	width: 20px;
@@ -2288,7 +2291,7 @@ body > input[type="radio"] {
 
 .filter-input-checkbox:checked + .checkbox-indicator {
 	position: absolute;
-	top: -1px;
+	top: -2px;
 	left: 0;
 	z-index: 5;
 	width: 23px;
@@ -2323,7 +2326,7 @@ body > input[type="radio"] {
 .filter-button {
     -ms-flex-item-align: end;
         align-self: flex-end;
-  	padding: 7px 27px;
+  	padding: 8px 28px;
 
   	color: #ffffff;
 	font-size: 16px;
@@ -2368,7 +2371,7 @@ body > input[type="radio"] {
 	       -ms-flex-pack: end;
 	justify-content: flex-end;
 	min-width: 800px;
-	margin-top: 115px;
+	margin-top: 113px;
 	margin-right: -1.25%;
 	margin-bottom: 28px;
 
