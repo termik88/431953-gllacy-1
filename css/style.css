@@ -1052,6 +1052,8 @@ body > input[type="radio"] {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
   width: 48.86561%;
   min-height: 220px;
   padding: 26px 19px;
@@ -1095,6 +1097,8 @@ body > input[type="radio"] {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
   width: 48.86561%;
   min-height: 220px;
   background-image: url("../img/bg-mail.jpg");
